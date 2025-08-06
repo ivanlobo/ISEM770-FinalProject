@@ -1,0 +1,318 @@
+TraceId,Start Time,End Time,Question,Ideal Answer,Standard RAG Answer,Standard RAG Similarity Score,Standard RAG Bert Score,Hierarchical RAG Answer,Hierarchical RAG Similarity Score,Hierarchical RAG Bert Score,Graph-based RAG Answer,Graph-based RAG Similarity Score,Graph-based RAG Bert Score,Best Bert Score,Best RAG,RAG Reasoning,Reference,Has Answer,Reasoning
+c39f31b6-8952-4aa0-8848-8d180d7dad5d,2025-08-02 13:49:04,2025-08-02 13:49:46,What are the key elements of an effective evacuation warning message?,"Effective evacuation warning messages include clear information about the hazardous impact, specific evacuation instructions, such as clearly identifying affected zones using maps or visuals, and language that is serious but not overly dramatic (e.g.,emergency)","The key elements of an effective evacuation warning message include:
+
+1. **Attention-Capturing Language**: Use warning language that conveys the seriousness of the situation without being overly dramatic to avoid causing unnecessary panic.
+
+2. **Comparison to Past Events**: Compare the potential impact of the upcoming hazard to similar prior events and their consequences to provide context.
+
+3. **Urgency for Action**: Clearly state the urgency for immediate action, including when it will no longer be safe to evacuate or for emergency personnel to conduct rescues.
+
+4. **Corroboration of Information**: Provide easy and quick ways for individuals to verify information through hyperlinks to authoritative sources.
+
+5. **Clear Evacuation Orders**: Avoid using the term ""voluntary"" in evacuation notifications; instead, issue mandatory evacuation orders when necessary, including time stamps and clear geographic identifiers.
+
+6. **Assistance for Vulnerable Individuals**: Encourage individuals who need help evacuating to alert authorities for assistance.
+
+7. **Community Sharing**: Motivate individuals to share alerts and warning messages with their friends and community to enhance awareness and response.
+
+8. **Risk Information**: Include information about the risks associated with the hazard and its probable effects on safety, property, and community functions.
+
+9. **Comfort Information for Shelters**: Provide information about shelter options that emphasize comfort to encourage individuals to evacuate.
+
+10. **Detailed Evacuation Information**: Offer detailed information on evacuation routes, traffic conditions, shelters, and re-entry plans to reduce uncertainties that may delay decision-making. 
+
+11. **Highlighting Benefits of Early Evacuation**: Stress the advantages of evacuating early, such as avoiding traffic congestion and ensuring access to fuel along routes.",0.8149996803199353,0.5197619795799255,"The key elements of an effective evacuation warning message include:
+
+1. **Attention-Capturing Language**: Use warning language that captures attention, such as ""dangerous situation"" or ""emergency,"" without being overly dramatic to avoid causing feelings that the threat is exaggerated.
+
+2. **Clear Urgency**: Address the urgency for immediate action by indicating when it will no longer be safe to evacuate or for emergency personnel to attempt rescues.
+
+3. **Mandatory Orders**: Avoid using the term ""voluntary"" in evacuation notifications, as it can be confusing. Instead, issue mandatory evacuation orders when necessary.
+
+4. **Personal Impact Description**: Clearly describe the probable personal impacts of the hazards, such as loss of utilities or upcoming travel bans, to motivate individuals to take protective action.
+
+5. **Comparative Context**: Compare the current hazard to similar past events to help individuals understand the risk.
+
+6. **Visual Aids**: Include visuals, such as maps or photos, to improve message comprehension and support decision-making.
+
+7. **Corroboration Links**: Provide easy and quick ways for individuals to corroborate information through hyperlinks to authoritative sources.
+
+8. **Geographic Clarity**: Include time stamps and easy-to-identify zones or geographic boundary identifiers in notifications to help individuals comply.
+
+9. **Encouragement to Share**: Always encourage individuals to share information with family and friends to enhance community awareness and response.
+
+10. **Use of Technology**: Be prepared to use the Integrated Public Alert and Warning System (IPAWS) Wireless Emergency Alert (WEA) capability for messages, especially when cell phone bandwidth may be saturated.",0.8120461017341267,0.5242879390716553,"The key elements of an effective evacuation warning message include:
+
+1. **Clear and Attention-Grabbing Language**: Use warning language that captures attention without being overly dramatic, to avoid causing individuals to feel the threat is exaggerated.
+
+2. **Comparison to Past Events**: Compare the potential impact of the upcoming hazard to similar prior events and their consequences to provide context.
+
+3. **Urgency for Immediate Action**: Address the urgency for immediate action by indicating when it will no longer be safe to evacuate or for emergency personnel to attempt rescues.
+
+4. **Corroboration of Information**: Provide easy and quick ways for individuals to corroborate information through hyperlinks to authoritative sources.
+
+5. **Mandatory Evacuation Notifications**: Avoid using the term ""voluntary"" and issue mandatory evacuation notifications for specific zones that need to evacuate.
+
+6. **Time Stamps and Geographic Identifiers**: Include time stamps and easy-to-identify zones or geographic boundary identifiers in notifications.
+
+7. **Risk Information**: Include information about the risk of the hazard and its probable effects on individual safety, property damage, and community functions.
+
+8. **Comfort Information for Shelters**: Provide information about shelters that emphasize comfort and available services.
+
+9. **Social Media and Visual Cues**: Utilize social media to share authoritative, time-stamped, geo-tagged photos and videos of hazards to validate the threat.
+
+10. **Encouragement to Share Information**: Encourage individuals to share alerts and warning messages with their community and social networks. 
+
+These elements work together to ensure that the message is clear, urgent, and actionable, helping to motivate individuals to evacuate safely.",0.8240500552874418,0.5124233365058899,0.5242879390716553,hierarchical,"The BERTScore is low because the chatbot's response includes many details not present in the ideal answer, such as comparing to past events and social media engagement, leading to a low content overlap and semantic similarity.","Improving Public Messaging, Section 2.1",True,The PDF details key findings for better public compliance
+cb0d7bfd-65a1-4fd4-aee5-6156ad749c6b,7/30/2025 19:18,7/30/2025 19:18,What are the safety recommendations for sheltering in place during a hurricane in a mobile home?,Manufactured or mobile homes are unsafe during a hurricane; individuals are advised to evacuate immediately and go to the nearest shelter or a sturdy building.,"The safety recommendation for sheltering in place during a hurricane in a mobile home is to evacuate immediately. Do not stay inside the mobile home; go to the nearest shelter or a sturdy building, as manufactured structures such as mobile homes are unsafe during a hurricane.",0.817788737,0.740032256,"The safety recommendation for sheltering in place during a hurricane in a mobile home is to evacuate immediately. Do not stay inside the mobile home; go to the nearest shelter or a sturdy building, as manufactured structures are unsafe during a hurricane.",0.825568955,0.745363772,"During a hurricane, the safety recommendation for those in a mobile home is to evacuate immediately. Do not stay inside the mobile home; instead, go to a storm shelter or a sturdy building, as manufactured structures are unsafe during a hurricane.",0.857187574,0.740584314,0.745363772,hierarchical,"The BERTScore is high because the chatbot's answer directly and accurately conveys the core message of the ideal answer, specifically that mobile homes are unsafe and immediate evacuation is necessary.","Shelter-in-Place Guidance (PDF 3), Shelter-in-Place for Hurricane",True,Directly stated in multiple places as an explicit exception.
+818d5673-0924-4cc9-a035-411ffa5668e3,7/30/2025 19:19,7/30/2025 19:19,Describe the process recommended for sealing a room during a chemical hazard shelter-in-place event.,"Use duct tape and plastic sheeting to seal around doors and windows in the room where you take shelter, turn off all systems that draw outside air (AC, heaters, fans), and choose an interior room without windows.","To seal a room during a chemical hazard shelter-in-place event, follow these steps:
+
+1. **Go Inside Quickly**: Move indoors as soon as possible and bring any pets inside.
+2. **Lock All Doors and Windows**: Ensure all entry points are secured to create a better seal.
+3. **Turn Off Airflow**: Turn off all fans, air conditioners, and furnaces. Close the fireplace damper and any other openings where outside air could enter.
+4. **Seal the Room**: Use duct tape and plastic sheeting to:
+   - Tape the gaps around doors and windows.
+   - Cover any vents or recessed fans.
+   - Tape over electrical outlets.
+5. **Choose an Interior Room**: If possible, go to an interior room without windows, as this will reduce the number of locations that need to be sealed.
+6. **Listen for Instructions**: Stay tuned to authorities for current emergency information and instructions on when it is safe to leave.
+7. **Drink Stored Water**: Do not drink tap water; use stored water instead.
+
+This process will help reduce contaminated air from entering the room. Sheltering-in-place should not last longer than a few hours.",0.723904969,0.57337451,"To seal a room during a chemical hazard shelter-in-place event, follow these steps:
+
+1. **Go Inside Quickly**: Move indoors as soon as possible and bring any pets inside.
+2. **Lock All Doors and Windows**: Ensure that all entry points are secured to create a better seal.
+3. **Turn Off Airflow**: Turn off all fans, air conditioners, and furnaces. Close the fireplace damper to prevent outside air from entering.
+4. **Choose an Interior Room**: Select a room without windows if possible, as this will make sealing easier.
+5. **Seal with Duct Tape and Plastic Sheeting**: Use duct tape and plastic sheeting to seal around the windows and doors. This will help reduce the entry of contaminated air.
+6. **Listen for Updates**: Stay tuned to authorities for current emergency information and instructions on when it is safe to leave.
+
+This process should be followed until authorities indicate it is safe to exit, which should not last longer than a few hours.",0.706081696,0.590712905,"To seal a room during a chemical hazard shelter-in-place event, follow these steps:
+
+1. **Go Inside Quickly**: Bring any pets indoors and lock all doors and windows to create a better seal.
+2. **Choose an Interior Room**: Select a room without windows to minimize the number of locations that need to be sealed.
+3. **Turn Off Airflow**: Turn off all fans, air conditioners, and furnaces. Close the fireplace damper and any other openings where outside air could enter.
+4. **Use Duct Tape and Plastic Sheeting**: 
+   - Tape the gaps around doors and windows.
+   - Cover any vents or recessed fans.
+   - Tape over electrical outlets to prevent air from coming in.
+5. **Listen for Instructions**: Stay informed by listening for current emergency information and instructions from authorities.
+
+This process will help reduce contaminated air from entering the room.",0.739081386,0.610426664,0.610426664,graph,"The BERTScore is low because while both answers cover some of the same key steps (e.g., using duct tape and turning off airflow), the chatbot's response includes many additional details (e.g., bringing in pets, locking doors) and is structured as a step-by-step process, which reduces the semantic similarity and direct content overlap with the concise ideal answer.","Shelter-in-Place for Chemical Hazard, PDF 3",True,Step-by-step instructions are explicitly given
+8d423910-144b-4c8f-b2d6-bba43f5ed59d,7/30/2025 20:25,7/30/2025 20:25,How do authorities recommend sheltering in place during an active shooter event if you cannot safely escape?,"If escape is not possible, stay out of the shooter's view, lock and block entrances, turn off lights, silence electronic devices, and spread out if in a group; remain hidden until law enforcement signals an all-clear.","If you cannot safely escape during an active shooter event, authorities recommend the following steps for sheltering in place:
+
+1. Stay out of the shooterÃÂ¢s view.
+2. Lock and block entrances and turn off lights.
+3. Groups of people should spread out when hiding.
+4. Silence electronic devices to avoid drawing attention.
+5. Text 9-1-1 and message others to communicate silently.
+6. Stay in place until law enforcement gives you notice that the danger is over.",0.823450825,0.66481334,"If you cannot safely escape during an active shooter event, authorities recommend the following steps for sheltering in place:
+
+1. **Hide**: Stay out of the shooterÃÂ¢s view.
+2. **Lock and block entrances**: Secure the doors and turn off lights.
+3. **Spread out**: If in a group, spread out to reduce the chance of being targeted.
+4. **Silence electronic devices**: Ensure that devices do not vibrate or make noise, which could attract attention.
+5. **Text 9-1-1**: If possible, text emergency services and others to communicate silently.
+6. **Stay in place**: Remain hidden until law enforcement gives you the all-clear signal.
+
+It is crucial to stay quiet and remain in your hiding place until you receive confirmation that the danger is over.",0.813633945,0.626914144,"During an active shooter event, if you cannot safely escape, authorities recommend the following steps for sheltering in place:
+
+1. **Hide**: Find a place to hide where the shooter is less likely to find you. This could be in a room without windows, behind solid doors with locks, under desks, or behind heavy furniture.
+2. **Silence electronic devices**: Turn off your phone and any other electronic devices to avoid detection.
+3. **Lock and block doors**: Secure the doors to your hiding place and block them if possible.
+4. **Close blinds and turn off lights**: Make your hiding place less visible.
+5. **Fight as a last resort**: If the shooter enters your hiding place and you have no other option, be prepared to fight back.
+
+Stay in place until law enforcement gives you notice that the danger is over.",0.771332513,0.556304157,0.66481334,standard,"The BERTScore is average because, despite significant content overlap and semantic similarity on most points, the chatbot's answer includes a key detail about texting 9-1-1 that is not present in the ideal answer.","Shelter-in-Place for Active Shooter, PDF 3",True,The document directly provides guidance on sheltering
+8d8409f7-2739-413e-b81e-4ace7128e453,7/30/2025 19:24,7/30/2025 19:24,List two common impediments to evacuation highlighted in the public messaging for evacuation.,Traffic congestion and concerns about evacuating with pets are two common impediments.,"Two common impediments to evacuation highlighted in the public messaging for evacuation are:
+
+1. Concerns about traffic congestion and the availability of gasoline.
+2. Reluctance to go to public shelters due to fears of crowding with strangers and being farther away from social networks.",0.721498419,0.63567251,"Two common impediments to evacuation highlighted in the public messaging for evacuation are:
+
+1. Traffic congestion and availability of gasoline, which causes individuals to worry about alternative routes and the capacity of the road system to handle traffic during evacuations.
+2. The ability and cost of evacuating with pets, where a greater number of pets in the household creates a larger barrier to departure.",0.828805681,0.645162225,"Two common impediments to evacuation highlighted in the public messaging for evacuation are:
+
+1. Traffic congestion and availability of gasoline, which create concerns about reliable information regarding alternative routes.
+2. The physical security of the home, including worries about potential damage and fear of looting in evacuated neighborhoods.",0.732838876,0.610861063,0.645162225,hierarchical,"The BERTScore is in the average range because while there is a complete content overlap on the two main impediments, the chatbot's answer includes significant additional details and elaborations that are not present in the ideal, concise answer.",Improving Public Messaging ¦ Section 5.1,True,Findings summarize primary barriers
+98f08777-b674-4ed9-8bae-dc685044ca24,7/30/2025 19:25,7/30/2025 19:25,"In the context of public messaging for evacuation, why might using photos or visual cues be recommended?","Including authoritative, geo-tagged photos or visuals of hazards helps confirm risks are real and motivates individuals to act on evacuation guidance.","Using photos or visual cues is recommended in the context of public messaging for evacuation because they serve as authoritative, time-stamped, geo-tagged evidence of hazards, such as rising waters and wildfires. These visuals can confirm that a risk is real, helping individuals to perceive the threat more clearly. Research indicates that people often seek environmental cues to make decisions about protective actions, and the presence of visual cues, such as visible rising water or smoke, can significantly influence whether individuals adhere to evacuation orders. Additionally, sharing these visuals can enhance communication among friends and family, further encouraging protective actions.",0.825958435,0.652351141,"Using photos or visual cues is recommended in the context of public messaging for evacuation because they play a significant role in influencing individuals' decisions to evacuate. Studies have shown that environmental cues, such as visual evidence of hazards like rising waters or wildfires, can prompt individuals to move from a ""wait-and-see"" approach to taking action, such as evacuating. Visual cues can help increase the perception of risk and urgency, encouraging those who might otherwise hesitate to evacuate. Additionally, seeing neighbors evacuate or visual representations of the threat can serve as social cues, further motivating individuals to follow suit and prioritize their safety.",0.765050335,0.591444016,"Using photos or visual cues is recommended in the context of public messaging for evacuation because they can provide authoritative, time-stamped, geo-tagged evidence of hazards such as rising waters and wildfires. These visuals can enhance risk perception and motivate individuals to take action by clearly illustrating the dangers. Additionally, encouraging individuals to share these visuals with their social networks can further disseminate critical information and prompt others to evacuate. Visual cues can serve as powerful reminders of the urgency and seriousness of the situation, thereby facilitating quicker decision-making regarding evacuation.",0.82725833,0.680432796,0.680432796,graph,"The BERTScore is average because while the chatbot's response covers the same core concepts as the ideal answer (confirming risks and motivating action), it includes additional details and points, such as specific hazard examples and the role of social media sharing, which reduces the direct content overlap.",Improving Public Messaging¦ Section 1.3.1,True,Recommendation section.
+dba43aa3-3082-4a0a-91ab-4e593c252442,7/30/2025 19:29,7/30/2025 19:30,"How long should you shelter in place after a nuclear detonation, if you are not at immediate risk from fire or collapse?",Stay inside for 24 hours unless local authorities provide other instructions.,"You should shelter in place for 24 hours after a nuclear detonation, unless local authorities provide other instructions.",0.717634886,0.747486353,"You should shelter in place for 24 hours after a nuclear detonation, unless local authorities provide other instructions.",0.717634886,0.747486353,You should shelter in place for 24 hours after a nuclear detonation unless local authorities provide other instructions.,0.719807699,0.760154366,0.760154366,graph,"The BERTScore is high because the chatbot's answer has a near-perfect content and semantic overlap with the ideal answer, conveying the exact same critical information about the recommended 24-hour sheltering period and the crucial caveat about local authorities' instructions.","Shelter-in-Place for Nuclear Detonation, PDF 3",True,Direct instruction is given in the document.
+366a3c47-a69e-42be-b95e-b1f63d9355f6,7/30/2025 19:32,7/30/2025 19:33,What is the recommended shelter-in-place action during an earthquake according to FEMA guidance?,"Drop to your hands and knees, take cover under sturdy furniture, and hold on until shaking stops.","During an earthquake, the recommended shelter-in-place action according to FEMA guidance is to ""Stay where you are and Drop, Cover, and Hold On."" You should get under and hold on to sturdy furniture, protect your head and neck with your arms or pillows, and if you are in bed, turn onto your stomach and cover your head and neck with a pillow. Stay in this position until the shaking stops.",0.698103904,0.612419665,"During an earthquake, the recommended shelter-in-place action is to stay where you are and Drop, Cover, and Hold On. You should get under and hold on to sturdy furniture, protecting your head and neck with your arms or pillows. If you are in bed, turn onto your stomach and cover your head and neck with a pillow. Stay in this position until the shaking stops.",0.715101887,0.625016332,"During an earthquake, the recommended shelter-in-place action according to FEMA guidance is to stay where you are and Drop, Cover, and Hold On. You should get under and hold on to sturdy furniture and protect your head and neck with your arms or pillows. If you are in bed, turn onto your stomach and cover your head and neck with a pillow. You should stay in this position until the shaking stops.",0.700349231,0.604995728,0.625016332,hierarchical,"The BERTScore is average because while the chatbot's answer covers the core ""Drop, Cover, and Hold On"" principle from the ideal answer, it includes several additional details and specific scenarios, such as advice for being in bed, which reduces the direct content overlap.","Shelter-in-Place for Earthquake, PDF 3",True,Summary boxes and main text provide details.
+d0bbbc60-7807-41c5-b7f4-2a17f19f8ef3,7/30/2025 19:33,7/30/2025 19:34,Why might people choose not to evacuate even if under an order,"Concerns include property security, cost of evacuation, presence of pets, traffic, uncertainty about shelter, and prior negative experience (e.g., evacuation fatigue)","People might choose not to evacuate even if under an order due to several reasons:
+
+1. **Reluctance to use public shelters**: Concerns about crowding with strangers and being farther away from social networks can deter individuals from evacuating to public shelters.
+
+2. **Job responsibilities**: Some individuals may have ongoing job responsibilities that prevent them from leaving.
+
+3. **Stress and anxiety**: The high level of stress and anxiety surrounding evacuation decision-making, including unknowns related to the evacuation (e.g., potential destination, space at shelters, shelter safety), can lead to hesitation.
+
+4. **Family disagreements**: Lack of agreement among family members about whether to stay or leave can delay or inhibit the evacuation decision.
+
+5. **Concerns about property**: Fear of looting in evacuated neighborhoods and worries about potential damage to their homes can make individuals reluctant to evacuate.
+
+6. **Trust issues**: A lack of trust in authorities can cause individuals to spend more time deliberating their evacuation decision, while high trust in authorities might lead some to believe they are safe and do not need to evacuate.
+
+7. **Logistical challenges**: The presence of children, especially younger ones, can raise anxiety levels and complicate the logistics of evacuation, potentially causing delays in decision-making. 
+
+These factors can contribute to a decision to remain in place despite an evacuation order.",0.656541603,0.51002717,"People might choose not to evacuate even if under an order due to several concerns and impediments, including:
+
+1. **Stress and Anxiety**: The high level of stress and anxiety surrounding evacuation decision-making can lead individuals to hesitate or delay their response.
+
+2. **Family Dynamics**: Lack of agreement among family members about whether to stay or leave can inhibit the decision to evacuate.
+
+3. **Concerns About Shelters**: Individuals may be reluctant to evacuate if their primary destination is a public shelter due to fears of crowding with strangers and being farther away from their social networks.
+
+4. **Job Responsibilities**: Some individuals may feel unable to leave due to ongoing job responsibilities.
+
+5. **Social Norms**: If individuals do not see their neighbors evacuating, they may conform to the neighborhood norm and choose not to evacuate.
+
+6. **Traffic and Travel Issues**: Concerns about traffic congestion, availability of gasoline, and the capacity of the road system can deter people from evacuating.
+
+7. **Pets**: The ability and cost of evacuating with pets can be a significant barrier, especially for those with multiple pets.
+
+8. **Home Security**: Concerns about the physical security of their home, including fears of looting or the inability to re-enter the evacuation zone to manage damage, can prevent evacuation.
+
+9. **Costs of Evacuation**: The financial burden of evacuation, including travel costs, can also be a deterrent.
+
+10. **Legal Status**: Potential issues related to the legal status of undocumented immigrants may cause hesitation in evacuating.
+
+These factors contribute to a complex decision-making process that can lead individuals to choose not to evacuate despite an order.",0.673804618,0.487558275,"People might choose not to evacuate even if under an order due to several concerns, including:
+
+1. **Fear of Crowding and Distance from Social Networks**: Individuals may be reluctant to evacuate to public shelters due to concerns about being crowded with strangers and being farther away from their social networks.
+
+2. **Job Responsibilities**: Some individuals may have ongoing job responsibilities that prevent them from leaving.
+
+3. **Traffic Congestion and Fuel Availability**: Concerns about traffic congestion and the availability of gasoline can delay or inhibit evacuation decisions.
+
+4. **Ability to Evacuate with Pets**: The greater the number of pets in the household, the more challenging it can be to evacuate, serving as a barrier to departure.
+
+5. **Physical Security of the Home**: Concerns about the ability to re-enter the evacuation zone after the disaster to manage any damage, as well as fears of looting in evacuated neighborhoods, can deter people from evacuating.
+
+6. **Costs of Evacuation**: The financial burden associated with evacuation, including travel costs, can also be a significant factor.
+
+7. **Legal Status Concerns**: Undocumented immigrants may face additional issues that complicate their decision to evacuate.
+
+8. **High Levels of Stress and Anxiety**: The stress and anxiety surrounding the unknowns related to evacuation, such as potential destinations, shelter safety, and separation from family and pets, can lead to indecision.
+
+9. **Lack of Agreement Among Family Members**: Disagreement among family members about whether to stay or leave can delay or inhibit the decision-making process.
+
+10. **Preparedness and Home Strengthening**: Individuals who have prepared for emergencies by strengthening their homes or purchasing generators may feel less inclined to evacuate. 
+
+These factors highlight the complexity of evacuation decision-making and the various personal, social, and logistical challenges individuals face.",0.702131501,0.487604409,0.51002717,standard,"The BERTScore is low because the chatbot's response lacks several key details present in the ideal answer, such as ""cost of evacuation,"" ""pets,"" and ""traffic."" The chatbot also introduces multiple new, unrelated concepts, resulting in a very low content overlap.",Improving Public Messaging¦ Section 5.1,True,Synthesized from multiple finding.
+8137627b-5ece-442b-ac40-b76743718e03,7/30/2025 20:06,7/30/2025 20:06,what should you do if floodwaters rise to a dangerous level while sheltering?,"Go to the highest level of the building or onto the roof, but do not climb into a closed attic ; call 911 for rescue.","If floodwaters rise to a dangerous level while sheltering, you should go to the highest level of the building or onto the roof if necessary. Do not climb into a closed attic, as you may become trapped by rising flood water. Additionally, you should call 911 and take your go-bag and critical documents with you. Stay inside until local authorities provide other instructions.",0.676034129,0.686489105,"If floodwaters rise to a dangerous level while sheltering, you should go to the highest level of the building or onto the roof if necessary. Do not climb into a closed attic, as you may become trapped by rising flood water. Additionally, you should call 911 for assistance.",0.704875843,0.74084729,"If floodwaters rise to a dangerous level while sheltering, you should go to the highest level of the building or onto the roof if necessary. Do not climb into a closed attic, as you may become trapped by rising flood water. Additionally, call 911 for help. Take your go-bag and critical documents with you. Stay inside until local authorities provide other instructions.",0.675885184,0.704464614,0.74084729,hierarchical,"The BERTScore is high because the chatbot's answer has a near-perfect content and semantic overlap with the ideal answer, covering all the critical points: moving to the highest level or roof, explicitly warning against closed attics, and calling 911 for help.","Shelter-in-Place for Flooding/Flash Flooding, PDF 3",True,Clear step-by-step instructions.
+54f49fc4-49dc-4dba-9fcb-4615859495df,7/30/2025 20:07,7/30/2025 20:07,What is one communication channel that has lost effectiveness for public alerts due to technology changes?,Landline phone alert systems are less effective because households now rely more on mobile phones.,Public alert and warning calls to landline phone numbers have lost effectiveness due to the increased reliance on cell phones.,0.757219486,0.745645165,Public alert and warning calls to landline phone numbers have lost effectiveness due to the increased prevalence of cell phone ownership.,0.744379213,0.695040166,Public alert and warning calls to landline phone numbers have lost effectiveness due to the increased prevalence of cell phone ownership.,0.744379213,0.695040166,0.745645165,standard,"The BERTScore is high because the chatbot's answer has a near-perfect semantic overlap with the ideal answer, accurately identifying landline phone alert systems as the less effective channel and correctly stating that the shift to mobile phones is the reason.",Improving Public Messaging¦ Section 2.3,True,Channel preference findings.
+c12fbac6-8667-4003-b5be-5b0971914c61,7/30/2025 20:08,7/30/2025 20:08,What is a positive effect of strong community social networks during evacuation situations?,"In some hazards, a strong social network can support the decision to evacuate and increase the likelihood of receiving critical evacuation information.",A positive effect of strong community social networks during evacuation situations is that they can support the decision to evacuate. Individuals who feel connected to a strong social network may be more likely to receive information about evacuation orders and feel encouraged to take action based on the behaviors and support of their community.,0.814579517,0.696291625,A positive effect of strong community social networks during evacuation situations is that they can support the decision to evacuate. Individuals who feel they have a strong social network may be more likely to receive information about evacuation orders and feel motivated to evacuate for safety reasons.,0.817758784,0.713459969,"A positive effect of strong community social networks during evacuation situations is that they can support the decision to evacuate. Individuals who feel connected to a strong social network may be more likely to receive information and encouragement to evacuate, leading to increased compliance with evacuation directives.",0.817721616,0.714998364,0.714998364,graph,"The BERTScore is high because the chatbot's answer has a very strong semantic overlap with the ideal answer, correctly identifying both key points: that strong social networks can support the decision to evacuate and increase the likelihood of receiving critical information.",Improving Public Messaging¦ Section 3.13,True,Detailed in the social networks findings
+6bf7a77a-bb77-48b6-8aec-dd071f4980c2,7/30/2025 20:08,7/30/2025 20:08,How should you use drones for delivering evacuation messages?,I don't have enough information to answer that.,"The provided context does not include specific information on using drones for delivering evacuation messages. Therefore, I cannot provide an answer based on the given context.",0.338596707,0.467779577,"The provided context does not mention the use of drones for delivering evacuation messages. Therefore, I cannot provide an answer based on the given information.",0.345379979,0.460362643,"The provided context does not contain specific information on using drones for delivering evacuation messages. Therefore, I cannot provide an answer based on the given context.",0.34339104,0.468719304,0.468719304,graph,"The BERTScore is low because while both answers convey the same core meaning of an inability to provide information, the ideal answer is a very short, direct statement, whereas the chatbot's response is a longer, more detailed explanation, resulting in very little content overlap.",,False,Drones are not discussed in the given literature.
+2c7323f6-45ba-48e4-9bf5-d76ed2be3a50,7/30/2025 20:09,7/30/2025 20:09,How to use of artificial intelligence for shelter resource allocation?,I don't have enough information to answer that.,"The provided context does not contain specific information on the use of artificial intelligence for shelter resource allocation. Therefore, I cannot provide an answer based on the given context.",0.374055017,0.459893733,"The provided context does not contain specific information on the use of artificial intelligence for shelter resource allocation. Therefore, I cannot provide an answer based on the given context.",0.374055017,0.459893733,"The provided context does not contain specific information on the use of artificial intelligence for shelter resource allocation. Therefore, I cannot provide an answer based on the given context.",0.374055017,0.459893733,0.459893733,standard,"The BERTScore is low because while both answers convey the same core meaning of an inability to answer, the ideal answer is a very short, general statement. The chatbot's response is a more detailed, context-specific explanation of its limitations, leading to very little direct content overlap.",,False,AI is not discussed in the given literature.
+70848ea7-e67f-47e5-9a6e-8d19ed0330d6,7/30/2025 20:10,7/30/2025 20:10,Does the NDRF discuss disaster insurance as a recovery resource,The NDRF lists insurance companies as one possible resource provider for recovery alongside NGOs and government agencies.,"The provided context does not mention disaster insurance as a recovery resource in the National Disaster Recovery Framework (NDRF). It focuses on recovery capabilities, collaboration, and the establishment of recovery support functions, but does not specifically address disaster insurance.",0.672524924,0.589021921,"The provided context does not mention disaster insurance as a recovery resource within the National Disaster Recovery Framework (NDRF). It focuses on recovery support functions and the collaboration between various agencies for post-disaster recovery, but does not specifically address disaster insurance.",0.685649372,0.615802169,"The provided context does not mention disaster insurance as a recovery resource in the National Disaster Recovery Framework (NDRF). It focuses on recovery capabilities, planning, and coordination among various stakeholders but does not specifically address disaster insurance.",0.668011832,0.595906377,0.615802169,hierarchical,"The BERTScore is in the average range because while there is a direct factual contradiction, both answers use the same key terms like ""NDRF"" and ""disaster insurance as a recovery resource,"" providing some semantic and lexical overlap that prevents a lower score.",Introduction; Recovery resources,True,Mentioned among recovery resource sources.
+2b00d7ee-d026-4b65-9c1c-4d3540d13397,7/30/2025 20:13,7/30/2025 20:13,How is psychological and emotional recovery addressed?,"The NDRF includes addressing psychological and emotional needs as a guiding principle, encompassing provision of support, counseling, and treatment as needed.","Psychological and emotional recovery is addressed by acknowledging and considering the trauma a community may have suffered due to shocks and stressors. It recognizes that while many individuals and communities demonstrate resilience in the face of adversity, they can also be vulnerable to social, psychological, and emotional distress. Successful resilience efforts take into account these impacts alongside the physical and economic effects of disasters. Understanding the interactions between shocks, stressors, and their effects can help uncover collaborative approaches that provide co-benefits, reducing the likelihood and severity of disruptions while simultaneously improving the quality of life for affected individuals and communities.",0.5569,0.504447222,"The provided context does not specifically address psychological and emotional recovery. It focuses on various aspects of community recovery, including economic, health and social services, housing, infrastructure, and natural and cultural resources. For information on psychological and emotional recovery, additional resources or guidelines would be needed.",0.569783017,0.596895695,"The provided context does not specifically address psychological and emotional recovery. It focuses primarily on housing recovery, coordination among agencies, and the development of recovery support function plans. Therefore, there is no information available regarding how psychological and emotional recovery is addressed in the context of disaster recovery.",0.58692192,0.563396096,0.596895695,hierarchical,"The BERTScore is low because there is a direct factual contradiction. The chatbot incorrectly claims the context does not address psychological and emotional recovery, which is a significant semantic and factual mismatch with the ideal answer.","Guiding Principles  Psychological and Emotional Recovery""",True,Dedicated sub-section.
+8d2f5142-150b-4a6f-aac6-0d805a8c699b,7/30/2025 20:13,7/30/2025 20:14,What are the main factors that contribute to a successful recovery?,"Factors include effective decisionmaking and coordination, integration of community recovery planning, well-managed recovery, proactive community engagement, well-administered financial acquisition, organizational flexibility, and resilient rebuilding.","The main factors that contribute to a successful recovery include:
+
+1. **Collaboration and Cooperation**: Building strong partnerships among various stakeholders, including state agencies, community organizations, and individuals, is essential for effective recovery efforts.
+
+2. **Understanding Roles and Responsibilities**: Clearly defining and documenting the roles of different agencies and partners helps streamline the recovery process and ensures that everyone is aware of their responsibilities.
+
+3. **Community Engagement**: Involving individuals, families, and households in the recovery process fosters resilience and strengthens social connectedness, which is critical for recovery.
+
+4. **Capacity Building**: Developing the capacity to manage recovery through collaborative planning and resource identification is vital for addressing community needs effectively.
+
+5. **Addressing Gaps in Recovery Housing**: Identifying and bridging the gaps between short, intermediate, and long-term housing recovery is crucial for providing stable housing solutions.
+
+6. **Integration of Recovery Functions**: Coordinating across various recovery support functions, such as economic recovery, health and social services, and community planning, ensures a comprehensive approach to recovery.
+
+7. **Resilience Planning**: Establishing resilience goals and priorities, and implementing projects that address identified community shocks and stressors, contributes to long-term recovery success.
+
+8. **Resource Availability**: Ensuring access to necessary resources and support for communities, especially those with limited means, is important for initiating and sustaining recovery efforts.",0.749255948,0.53573662,"The main factors that contribute to a successful recovery include:
+
+1. **Community Planning and Capacity Building**: Identifying and addressing community planning issues and building capacity for recovery efforts.
+
+2. **Economic Recovery**: Recognizing and addressing economic recovery issues to restore and enhance the local economy.
+
+3. **Health and Social Services**: Identifying health and social service needs, particularly for vulnerable populations, and incorporating these into recovery strategies.
+
+4. **Housing Issues**: Addressing housing needs and ensuring safe and adequate housing solutions for affected individuals and families.
+
+5. **Infrastructure Systems**: Identifying and resolving issues related to infrastructure systems to ensure they are restored and improved for future resilience.
+
+6. **Natural and Cultural Resources**: Recognizing and addressing issues related to natural and cultural resources to preserve community identity and environmental health.
+
+7. **Long-term Environmental Restoration**: Planning for long-term environmental restoration to mitigate future risks and enhance community resilience.
+
+8. **Collaboration and Partnerships**: Engaging in community-centered collaboration with diverse representation and forming partnerships across various sectors.
+
+9. **Communication**: Clearly communicating with community members to set realistic expectations and build trust during the recovery process.
+
+10. **Sustainable Practices**: Implementing sustainable and durable solutions that consider immediate and long-term impacts on social, economic, and environmental resources.
+
+11. **Adaptability**: Ensuring that solutions can adapt to changing conditions and incorporate ongoing adjustments as new information emerges.
+
+12. **Equity Considerations**: Explicitly identifying and incorporating equity considerations into all phases of decision-making to benefit underserved communities.
+
+By addressing these factors, communities can enhance their resilience and improve the effectiveness of their recovery efforts.",0.775788861,0.496223897,"The main factors that contribute to a successful recovery include:
+
+1. **Collaboration and Coordination**: Effective communication and understanding among various agencies and stakeholders involved in recovery efforts are crucial. This includes formalizing roles and responsibilities to ensure everyone is aligned towards common recovery goals.
+
+2. **Comprehensive Planning**: Developing detailed recovery plans, such as the Recovery Support Function (RSF) Annex for Housing Recovery, helps address gaps between short, intermediate, and long-term recovery needs.
+
+3. **Stakeholder Engagement**: Involving a wide range of stakeholders, including emergency management, housing agencies, and community organizations, ensures that diverse perspectives and needs are considered in recovery strategies.
+
+4. **Continuous Assessment and Adaptation**: Conducting gap analyses and updating strategies based on findings allows for ongoing improvements and responsiveness to changing circumstances.
+
+5. **Training and Preparedness**: Regular training and exercises for recovery staff enhance readiness for future disasters and improve the effectiveness of recovery operations.
+
+6. **Resource Identification and Allocation**: Identifying and securing resources to bridge gaps in recovery housing and other areas is essential for successful implementation of recovery plans.
+
+7. **Focus on Vulnerable Populations**: Incorporating the needs of individuals with disabilities and others with access and functional needs into recovery strategies ensures equitable recovery for all community members.
+
+8. **Long-term Commitment**: Establishing ongoing meetings and updates to recovery plans fosters sustained engagement and commitment to long-term recovery efforts.",0.75902268,0.516190946,0.53573662,standard,"The BERTScore is low because the chatbot's response has very little direct content overlap with the ideal answer. While there is a weak semantic similarity between a few points, the majority of the factors listed in each answer are different.",Achieving Disaster Recovery (Success Factors),True,Listed as summary bullets in the text.
+a9baa646-84da-45ed-ba73-58e428ddcb53,7/30/2025 20:14,7/30/2025 20:14,Is pre-disaster planning required?,The NDRF strongly encourages but does not require pre-disaster recovery planning.,"Yes, pre-disaster planning is essential and is a foundational element of the National Preparedness System. It involves engaging the whole community in considering the lifecycle of a potential crisis, determining required capabilities, and establishing a framework for roles and responsibilities.",0.579618701,0.556483448,"The context does not explicitly state that pre-disaster planning is required. However, it emphasizes the importance of planning for national preparedness and community resilience, suggesting that it is a critical practice for effectively managing potential crises.",0.640552237,0.614997327,"Yes, pre-disaster planning is required as it is a foundational element of the National Preparedness System. It involves establishing preparedness priorities, coordinating efforts among various organizations, and developing effective emergency operations plans to protect lives, property, and the environment.",0.597612789,0.549749494,0.614997327,hierarchical,"The BERTScore is in the average range because while both answers correctly state that pre-disaster planning is not required, the chatbot's response is missing the key detail that the NDRF strongly encourages it and includes extra, interpretive information that reduces the direct content overlap.","Core Principles  Pre-Disaster Recovery Planning""",True,"The document uses 'encourages', not requires"
+f11e6d71-8c0b-4e94-8acb-16cd2825eabc,7/30/2025 20:14,7/30/2025 20:15,Who can act as a Local Disaster Recovery Manager (LDRM)?,"The affected local government designates the LDRM to provide a focal point for recovery efforts and liaison with state, tribal, and federal partners.","The context provided does not specifically mention who can act as a Local Disaster Recovery Manager (LDRM). However, it emphasizes the importance of local elected and appointed officials, senior officials, and various community agencies in disaster response and recovery efforts. Typically, a Local Disaster Recovery Manager would likely be someone in a leadership position within local government or emergency management, but the exact qualifications or roles are not detailed in the provided text.",0.709404018,0.550356984,"The provided context does not specify who can act as a Local Disaster Recovery Manager (LDRM). For detailed information regarding the role and qualifications of an LDRM, it would be best to refer to FEMA's Local Elected and Appointed Officials Guide or other relevant FEMA resources.",0.686402085,0.545755684,"The context provided does not specify who can act as a Local Disaster Recovery Manager (LDRM). Therefore, based on the information available, I cannot provide an answer to that question.",0.601731691,0.509902954,0.550356984,standard,"The BERTScore is low because the chatbot's response fails to provide the core factual information that the local government designates the LDRM, instead incorrectly stating that this information is not available. This results in a significant semantic and content mismatch.",Executive Summary; Roles and Responsibilities,True,Function described within roles and responsibilities.
+245521fa-1523-4e83-85ba-fb34208d2608,7/30/2025 20:15,7/30/2025 20:15,What is the role of pre-disaster recovery planning?,"Pre-disaster recovery planning can improve the speed and effectiveness of recovery, reduce the magnitude of recovery needs, and strengthen relationships for unified decision-making after an incident.","The role of pre-disaster recovery planning is to help jurisdictions identify needs, develop options, implement solutions, direct recovery activities, and expedite a unified recovery effort before a disaster occurs. It allows for the anticipation of serious and long-term consequences of disasters, such as housing displaced individuals and rehabilitating the economy. Pre-incident recovery plans should complement Emergency Operations Plans (EOPs) by using consistent terminology and describing an integrated concept of operations. This planning also incorporates mitigation strategies and establishes recovery priorities, ensuring a coordinated approach to recovery efforts.",0.800680101,0.642534316,"The role of pre-disaster recovery planning is to ensure an efficient, deliberate, and coordinated approach to disaster housing resilience and recovery before, during, and after a disaster. It involves collaboration among stakeholders across community development, emergency management, housing, and non-profit organizations to identify potential housing solutions and enhance community resiliency. Pre-disaster recovery planning aims to improve outcomes for post-disaster housing recovery efforts by preparing state housing and emergency management agencies to effectively address housing needs and resources during the disaster lifecycle.",0.756552449,0.621538997,"Pre-disaster recovery planning plays a crucial role in helping jurisdictions identify needs, develop options, implement solutions, direct recovery activities, and expedite a unified recovery effort before a disaster occurs. It allows jurisdictions to anticipate and prepare for the serious and long-term consequences of disasters, such as housing displaced individuals and rehabilitating the local economy. By integrating recovery priorities and mitigation strategies into community development planning, pre-incident recovery plans complement Emergency Operations Plans (EOPs) and ensure a coordinated approach to recovery. This advance planning facilitates the transition to long-term recovery and the deactivation of response assets after an incident.",0.833341333,0.643490255,0.643490255,graph,"The BERTScore is in the average range because while the chatbot's answer has some semantic overlap with the ideal answer's points on improving speed and effectiveness, it is missing the key point about reducing the magnitude of recovery needs and includes many additional details that are not in the ideal answer.","Guiding Principles  Pre-Disaster Recovery Planning""",True,Clearly described in core principles.
+87dd2309-857a-4102-8aee-021c00ab4ec9,7/30/2025 20:19,7/30/2025 20:19,Does successful recovery focus only on physical infrastructure restoration?,"No, recovery also includes the continuation or restoration of services critical to supporting physical, emotional, and financial well-being of impacted community members.","No, successful recovery does not focus only on physical infrastructure restoration. It also involves addressing various other aspects such as economic recovery, health and social services, housing issues, community planning and capacity building, and natural and cultural resource issues. A comprehensive approach to recovery considers the needs of the community as a whole, including those with access and functional needs, and emphasizes collaboration among various agencies and stakeholders.",0.770113286,0.564206064,"No, successful recovery does not focus only on physical infrastructure restoration. It also involves addressing community planning and capacity building issues, economic recovery, health and social services, housing, natural and cultural resources, and long-term environmental restoration, among other aspects. Comprehensive recovery requires a holistic approach that considers the diverse needs of the community.",0.759294064,0.583081245,"No, successful recovery does not focus only on physical infrastructure restoration. It also involves addressing various aspects such as economic recovery, health and social services, community planning and capacity building, housing, natural and cultural resources, and long-term environmental restoration. Additionally, it includes considerations for vulnerable populations and their specific needs during the recovery process.",0.758152584,0.594313622,0.594313622,graph,"The BERTScore is low because while both answers correctly state that recovery is more than physical infrastructure, the chatbot's response provides a long list of specific recovery aspects that are not a close semantic match to the ideal answer's more general and holistic phrase about well-being, resulting in a significant content mismatch.",Introduction,True,Clearly stated in the executive introduction.
+148e6469-0ee9-4459-8853-0117500ca6fa,7/30/2025 20:19,7/30/2025 20:19,Can the NDRF be used for predicting future climate events?,I don't have enough information to answer that.,"The National Disaster Recovery Framework (NDRF) is not specifically designed for predicting future climate events. Instead, it focuses on how to build, sustain, and coordinate disaster recovery capabilities, emphasizing pre-disaster preparedness and collaboration among community partners. While it encourages risk mitigation and continuity planning, it does not serve as a predictive tool for climate events.",0.13388475,0.345196396,"The provided context does not mention the National Disaster Recovery Framework (NDRF) or its use for predicting future climate events. It focuses on risk assessment, threat and hazard identification, and resilience planning. Therefore, based on the given information, it cannot be determined if the NDRF can be used for predicting future climate events.",0.212318295,0.358145982,"The provided context does not mention the National Disaster Recovery Framework (NDRF) or its use for predicting future climate events. Therefore, based on the given information, it cannot be determined whether the NDRF can be used for that purpose.",0.242781997,0.390603304,0.390603304,graph,"The BERTScore is low because while both answers convey the same core meaning of an inability to answer, the ideal answer is a very short, generic statement, whereas the chatbot's response is a long, context-specific explanation, resulting in low content overlap.",,False,The document does not address prediction of future climate events.
+fe5b6515-c4a4-4645-9978-c23424f96bd3,7/31/2025 23:11,7/31/2025 23:12,Which household characteristics have been found to decrease the likelihood of evacuation during a disaster?,"Having pets, a strong emotional attachment to property, being a homeowner (compared to renters), and higher self-reported risk tolerance are among the characteristics that decrease evacuation likelihood.","The household characteristics that have been found to decrease the likelihood of evacuation during a disaster include:
+
+1. **Households with Children**: Larger numbers of children in the home negatively affected the likelihood of evacuation, and parents with children faced more difficulties in making the decision to evacuate.
+
+2. **Households with Pets**: Having a pet, especially with a strong emotional attachment, decreased the likelihood of evacuation due to concerns about shelter acceptance, costs, and logistics.
+
+3. **Single Parents with Medical Conditions**: Single parents who had medical conditions were less likely to evacuate than others.
+
+4. **Lower Education Levels**: Individuals who had not completed high school were less likely to evacuate, possibly due to financial constraints.
+
+5. **Men**: Men were more likely not to evacuate because they wanted to protect their property.
+
+6. **Older Age**: Findings regarding age were varied, but it suggests that older individuals may have different influences affecting their evacuation decisions.
+
+7. **Low Income Levels**: The findings were mixed, but some studies indicated that low-income individuals may have higher risk perception but still face barriers to evacuating.",0.6862417970449949,0.4947578310966491,"The household characteristics that have been found to decrease the likelihood of evacuation during a disaster include:
+
+1. **Households with Pets**: Having a pet, especially with a strong attachment to the pet, decreased the likelihood of evacuation due to concerns about shelters accepting pets and the logistics of evacuating with pets.
+
+2. **Homeowners**: Homeowners were less likely to evacuate than renters, often underestimating storm severity and believing their home was safe. They also tended to protect their homes before evacuating.
+
+3. **Households with Children**: Parents with children faced more difficulties in deciding to evacuate, particularly if they had larger numbers of children, which raised anxiety levels and increased logistical challenges.
+
+4. **Low-Income Households**: Findings were mixed, but some studies indicated that low-income individuals might have higher non-evacuation rates due to lack of understanding of evacuation orders or financial constraints.
+
+5. **Individuals with Higher Risk Tolerance**: Those with a stay-and-defend attitude and a strong emotional connection to their property were less likely to evacuate.
+
+6. **Homebound Adults and Individuals with Disabilities**: Homebound adults and those with cognitive disabilities often lacked the ability to evacuate without assistance, which decreased their likelihood of evacuation.
+
+These characteristics contribute to various barriers and challenges that individuals and families face when making evacuation decisions during disasters.",0.7214134719760669,0.5363430976867676,"The household characteristics that have been found to decrease the likelihood of evacuation during a disaster include:
+
+1. **Households with Children**: Larger numbers of children in the home negatively affected the likelihood of evacuation, as parents faced more difficulties in making the decision to evacuate.
+
+2. **Households with Pets**: Having a pet, especially with a strong attachment, decreased the likelihood of evacuation due to concerns about shelters accepting pets, the added cost of evacuating with pets, and the logistics of having a pet at a shelter.
+
+3. **Homeowners**: Homeowners were less likely to evacuate than renters, often underestimating storm severity and believing their home was safe.
+
+4. **Single Parents with Medical Conditions**: Single parents with medical conditions were less likely to evacuate compared to others.
+
+5. **Low-Income Households**: Findings were mixed, but some studies indicated that low-income individuals had higher non-evacuation rates and were less likely to understand evacuation orders.
+
+6. **Need for Assistance**: Homebound adults and those with cognitive disabilities often required assistance to evacuate, which could hinder their ability to leave.
+
+These characteristics contribute to various barriers and concerns that influence the decision-making process regarding evacuation.",0.6867949250791304,0.5275482535362244,0.5363430976867676,hierarchical,"The BERTScore is low because while the chatbot's response correctly identifies some of the characteristics from the ideal answer, it introduces a significant amount of additional and new information (e.g., children, low-income households) and provides extensive explanations for each point, which significantly reduces the content overlap.","Improving Public Messaging Section 3.7, 3.8",True,Multiple sections list impediments related to household composition.
+7927d5da-fb34-4d6a-a3f8-197dcbd60cf6,7/31/2025 23:13,7/31/2025 23:13,"Does FEMA Shelter-in-Place Guidance provide recommendations for individuals with exotic pets (e.g., reptiles or birds)",I don't have enough information to answer that.,"The provided context does not mention specific recommendations for individuals with exotic pets, such as reptiles or birds, in FEMA Shelter-in-Place Guidance. It primarily focuses on household pets and service animals.",0.0,0.0,"The provided context does not specifically mention recommendations for individuals with exotic pets, such as reptiles or birds, in FEMA Shelter-in-Place Guidance. It primarily focuses on household pets and service animals.",0.0,0.0,"The provided context does not mention specific recommendations for individuals with exotic pets, such as reptiles or birds, in FEMA Shelter-in-Place Guidance. It primarily focuses on household pets and service animals.",0.0,0.0,,,,,False, Only general pet guidance is given; there is no mention of exotic animals.
+2baf342c-2943-4f12-a3ae-1e3d6f90eecc,7/30/2025 20:21,7/30/2025 20:21,What are psychological effects of color schemes in evacuation signage?,I don't have enough information to answer that.,"The provided context does not include information about the psychological effects of color schemes in evacuation signage. Therefore, I cannot answer that question based on the given text.",0.0,0.0,"The provided context does not mention the psychological effects of color schemes in evacuation signage. Therefore, I cannot provide an answer based on the given information.",0.0,0.0,"The provided context does not contain information regarding the psychological effects of color schemes in evacuation signage. Therefore, I cannot answer that question based on the given information.",0.0,0.0,,,,,False,No mention of color scheme effects in signage.
+,,,,,,,,,,,,,,,,,,,
+Evaluation,,,,,,0.669756875,0.590882383,,0.679281658,0.594874695,,0.675969564,0.591102253,0.611814243,Graph-based,,,,

@@ -1,0 +1,184 @@
+[
+    {
+      "question": "What are the key elements of an effective evacuation warning message?",
+      "ideal_answer": "Effective evacuation warning messages include clear information about the hazard’s impact, specific evacuation instructions, such as clearly identifying affected zones using maps or visuals, and language that is serious but not overly dramatic (e.g., “emergency” or “dangerous situation”)",
+      "reference": "Improving Public Messaging… Section 2.1",
+      "has_answer": true,
+      "reasoning": "The PDF details key findings for better public compliance"
+    },
+    {
+      "question": "What are the safety recommendations for sheltering in place during a hurricane in a mobile home?",
+      "ideal_answer": "Manufactured or mobile homes are unsafe during a hurricane; individuals are advised to evacuate immediately and go to the nearest shelter or a sturdy building.",
+      "reference": "Shelter-in-Place Guidance (PDF 3), Shelter-in-Place for Hurricane",
+      "has_answer": true,
+      "reasoning": "Directly stated in multiple places as an explicit exception."
+    },
+    {
+      "question": "Describe the process recommended for sealing a room during a chemical hazard shelter-in-place event.",
+      "ideal_answer": "Use duct tape and plastic sheeting to seal around doors and windows in the room where you take shelter, turn off all systems that draw outside air (AC, heaters, fans), and choose an interior room without windows.",
+      "reference": "Shelter-in-Place for Chemical Hazard, PDF 3",
+      "has_answer": true,
+      "reasoning": "Step-by-step instructions are explicitly given"
+    },
+    {
+      "question": "How do authorities recommend sheltering in place during an active shooter event if you cannot safely escape?",
+      "ideal_answer": "If escape is not possible, stay out of the shooter’s view, lock and block entrances, turn off lights, silence electronic devices, and spread out if in a group; remain hidden until law enforcement signals an all-clear.",
+      "reference": "Shelter-in-Place for Active Shooter, PDF 3",
+      "has_answer": true,
+      "reasoning": "The document directly provides guidance on sheltering"
+    },
+    {
+      "question": "List two common impediments to evacuation highlighted in the public messaging for evacuation.",
+      "ideal_answer": "Traffic congestion and concerns about evacuating with pets are two common impediments.",
+      "reference": "Improving Public Messaging… Section 5.1",
+      "has_answer": true,
+      "reasoning": "Findings summarize primary barriers"
+    },
+    {
+      "question": "In the context of public messaging for evacuation, why might using photos or visual cues be recommended?",
+      "ideal_answer": " Including authoritative, geo-tagged photos or visuals of hazards helps confirm risks are real and motivates individuals to act on evacuation guidance.",
+      "reference": " Improving Public Messaging… Section 1.3.1",
+      "has_answer": true,
+      "reasoning": "Recommendation section."
+    },
+    {
+      "question": "How long should you shelter in place after a nuclear detonation, if you are not at immediate risk from fire or collapse?",
+      "ideal_answer": "Stay inside for 24 hours unless local authorities provide other instructions.",
+      "reference": "Shelter-in-Place for Nuclear Detonation, PDF 3",
+      "has_answer": true,
+      "reasoning": "Direct instruction is given in the document."
+    },
+      {
+      "question": "What is the recommended shelter-in-place action during an earthquake according to FEMA guidance?",
+      "ideal_answer": "Drop to your hands and knees, take cover under sturdy furniture, and hold on until shaking stops.",
+      "reference": "Shelter-in-Place for Earthquake, PDF 3",
+      "has_answer": true,
+      "reasoning": "Summary boxes and main text provide details."
+    },
+    {
+      "question": "Why might people choose not to evacuate even if under an order",
+      "ideal_answer": " Concerns include property security, cost of evacuation, presence of pets, traffic, uncertainty about shelter, and prior negative experience (e.g., evacuation fatigue)",
+      "reference": "Improving Public Messaging… Section 5.1",
+      "has_answer": true,
+      "reasoning": "Synthesized from multiple finding."
+    },
+    {
+      "question": "what should you do if floodwaters rise to a dangerous level while sheltering?",
+      "ideal_answer": "Go to the highest level of the building or onto the roof, but do not climb into a closed attic; call 911 for rescue.",
+      "reference": "Shelter-in-Place for Flooding/Flash Flooding, PDF 3",
+      "has_answer": true,
+      "reasoning": "Clear step-by-step instructions."
+    },
+    {
+      "question": "What should you do if floodwaters rise to a dangerous level while sheltering?",
+      "ideal_answer": "Go to the highest level of the building or onto the roof, but do not climb into a closed attic; call 911 for rescue.",
+      "reference": "Shelter-in-Place for Flooding/Flash Flooding, PDF 3",
+      "has_answer": true,
+      "reasoning": "Clear step-by-step instructions."
+    },
+    {
+      "question": "What is one communication channel that has lost effectiveness for public alerts due to technology changes?",
+      "ideal_answer": "Landline phone alert systems are less effective because households now rely more on mobile phones.",
+      "reference": "Improving Public Messaging… Section 2.3",
+      "has_answer": true,
+      "reasoning": "Channel preference findings."
+    },
+    {
+      "question": "What is a positive effect of strong community social networks during evacuation situations?",
+      "ideal_answer": "In some hazards, a strong social network can support the decision to evacuate and increase the likelihood of receiving critical evacuation information.",
+      "reference": "Improving Public Messaging… Section 3.13",
+      "has_answer": true,
+      "reasoning": "Detailed in the social networks findings"
+    },
+    {
+      "question": "How should you use drones for delivering evacuation messages?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None",
+      "has_answer": false,
+      "reasoning": "Drones are not discussed in the given literature."
+    },
+    {
+      "question": "How to use of artificial intelligence for shelter resource allocation?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None",
+      "has_answer": false,
+      "reasoning": "AI is not discussed in the given literature."
+    },
+    {
+      "question": "Does the NDRF discuss disaster insurance as a recovery resource",
+      "ideal_answer": "The NDRF lists insurance companies as one possible resource provider for recovery alongside NGOs and government agencies.",
+      "reference": "Introduction; Recovery resources",
+      "has_answer": true,
+      "reasoning": "Mentioned among recovery resource sources."
+    },
+    {
+      "question": "How is psychological and emotional recovery addressed?",
+      "ideal_answer": "The NDRF includes addressing psychological and emotional needs as a guiding principle, encompassing provision of support, counseling, and treatment as needed.",
+      "reference": "Guiding Principles – Psychological and Emotional Recovery",
+      "has_answer": true,
+      "reasoning": "Dedicated sub-section."
+    },
+    {
+      "question": "What are the main factors that contribute to a successful recovery?",
+      "ideal_answer": "Factors include effective decisionmaking and coordination, integration of community recovery planning, well-managed recovery, proactive community engagement, well-administered financial acquisition, organizational flexibility, and resilient rebuilding.",
+      "reference": "Achieving Disaster Recovery (Success Factors)",
+      "has_answer": true,
+      "reasoning": "Listed as summary bullets in the text."
+    },
+    {
+      "question": "Is pre-disaster planning required?",
+      "ideal_answer": "The NDRF strongly encourages but does not require pre-disaster recovery planning.",
+      "reference": "Core Principles – Pre-Disaster Recovery Planning",
+      "has_answer": true,
+      "reasoning": "The document uses 'encourages', not requires"
+    },
+    {
+      "question": "Who can act as a Local Disaster Recovery Manager (LDRM)?",
+      "ideal_answer": "The affected local government designates the LDRM to provide a focal point for recovery efforts and liaison with state, tribal, and federal partners.",
+      "reference": "Executive Summary; Roles and Responsibilities",
+      "has_answer": true,
+      "reasoning": "Function described within roles and responsibilities."
+    },
+    {
+      "question": "What is the role of pre-disaster recovery planning?",
+      "ideal_answer": "Pre-disaster recovery planning can improve the speed and effectiveness of recovery, reduce the magnitude of recovery needs, and strengthen relationships for unified decision-making after an incident.",
+      "reference": "Guiding Principles – Pre-Disaster Recovery Planning",
+      "has_answer": true,
+      "reasoning": "Clearly described in core principles."
+    },
+    {
+      "question": "Does successful recovery focus only on physical infrastructure restoration?",
+      "ideal_answer": "No, recovery also includes the continuation or restoration of services critical to supporting physical, emotional, and financial well-being of impacted community members.",
+      "reference": "Introduction ",
+      "has_answer": true,
+      "reasoning": "Clearly stated in the executive introduction."
+    },
+    {
+      "question": "Can the NDRF be used for predicting future climate events?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None",
+      "has_answer": false,
+      "reasoning": "The document does not address prediction of future climate events."
+    },
+    {
+      "question": "Which household characteristics have been found to decrease the likelihood of evacuation during a disaster?",
+      "ideal_answer": "Having pets, a strong emotional attachment to property, being a homeowner (compared to renters), and higher self-reported risk tolerance are among the characteristics that decrease evacuation likelihood.",
+      "reference": "Improving Public Messaging… Section 3.7, 3.8",
+      "has_answer": true,
+      "reasoning": "Multiple sections list impediments related to household composition."
+    },
+    {
+      "question": "Does FEMA Shelter-in-Place Guidance provide recommendations for individuals with exotic pets (e.g., reptiles or birds)?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None",
+      "has_answer": false,
+      "reasoning": "Only general pet guidance is given; there is no mention of exotic animals."
+    },
+    {
+      "question": "What are the psychological effects of color schemes in evacuation signage?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None",
+      "has_answer": false,
+      "reasoning": "No mention of color scheme effects in signage."
+    }
+ ]

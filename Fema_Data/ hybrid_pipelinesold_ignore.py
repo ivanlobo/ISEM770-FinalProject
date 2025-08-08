@@ -812,4 +812,5 @@ def compare_all_rag(query, folder_path, **kwargs):
         "hierarchical": hierarchical_rag(query, folder_path, **kwargs),
         "graph": graph_rag(query, folder_path, **kwargs),
         
+
     }
